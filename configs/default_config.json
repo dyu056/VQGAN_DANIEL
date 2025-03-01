@@ -1,0 +1,24 @@
+{
+    "training": {
+        "data_dir": "datasets",
+        "checkpoint_dir": "checkpoints",
+        "output_dir": "outputs",
+        "epochs": 100,
+        "batch_size": 1,
+        "learning_rate": 2e-4,
+        "image_size": 64,
+        "save_freq": 5,
+        "use_wandb": false
+    },
+    "model": {
+        "m": 3,
+        "embedding_dim": 512,
+        "commit_weight": 0.25,
+        "use_adversarial": true,
+        "adv_weight": 0.1
+    },
+    "testing": {
+        "checkpoint_path": "checkpoints/vqgan_latest.pt",
+        "image_size": 256
+    }
+} 

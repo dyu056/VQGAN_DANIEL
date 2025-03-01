@@ -1,0 +1,10 @@
+{
+    "training": {
+        "batch_size": 64,
+        "learning_rate": 1e-4,
+        "epochs": 200
+    },
+    "model": {
+        "embedding_dim": 256
+    }
+} 
